@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(../css/images/background_mage_coffee_shop.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.form{
+    position: absolute;
+    text-align: center;
+    background: rgb(0,0,0);
+    width: 400px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    border: 0;
+    transform: translate(-50%,-50%);
+}
+
+.form img{
+    margin: 0;
+}
+
+#text_Login{
+    text-align: center;
+    margin: 6px;
+}
+
+.form p{
+    text-align: left;
+    position: relative;
+    color: rgb(255,255,255);
+    font-size: 20px;
+    margin: 6%;
+}
+
+.form input{
+    color: rgb(255,255,255);
+    margin: 20px;
+    padding: 6px;
+    width: 82%;
+    background: rgb(0,0,0);
+    font-size: 16px;
+    border: 0;
+}
+
+.form button{
+    background-color: rgb(223,33,113);
+    color: rgb(255,255,255);
+    border: 0;
+    border-radius: 16px;
+    cursor: pointer;
+    width: 80%;
+    padding: 10px;
+}
+
+.social_neworks{
+    max-width: 100%;
+    height: 20px;
+    margin: 20px;
+    justify-items: center;
+    cursor: pointer;
+}
